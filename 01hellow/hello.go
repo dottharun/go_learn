@@ -18,6 +18,7 @@ func main() {
 	message, err := greetings.Hello("")
 
 	if err != nil {
+		//prints err and exits the program with 1
 		log.Fatal(err)
 	}
 
