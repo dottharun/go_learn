@@ -3,9 +3,11 @@ package main
 import (
 	"fmt"
 
-	"rsc.io/quote/v4"
+	"example.com/greetings"
 )
 
 func main() {
-	fmt.Println(quote.Go())
+	// get the greeting string and print it
+	message := greetings.Hello("colaman")
+	fmt.Println(message)
 }
