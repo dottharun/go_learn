@@ -5,4 +5,7 @@ use (
 	./02greetings
 	./03var
 	./04format
+	./05arr
+	./06stdlib
+	./07sqrt
 )

@@ -15,7 +15,7 @@ func main() {
 	log.SetFlags(0)
 
 	names := []string{"naveen", "coolio", "Darren Brown"}
- 
+
 	messages, err := greetings.Hellos(names)
 	if err != nil {
 		log.Fatal(err)
