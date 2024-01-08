@@ -5,16 +5,16 @@ import (
 )
 
 func Sqrt(x float64) float64 {
-	z := 1.0
+	z := 1000.0
 
 	for i := 1; i <= 10; i++ {
 		fmt.Println("guess is ", z)
-		z -= (z*z - x) / (2 * z)
+		z -= (z - (x / z)) / 2
 	}
 
 	return z
 }
 
 func main() {
-	fmt.Println(Sqrt(100))
+	fmt.Println(Sqrt(36))
 }
