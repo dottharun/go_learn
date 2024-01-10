@@ -15,7 +15,7 @@ func main() {
 	fmt.Println(names)
 
 	// slices - length is dynamic
-	// use arrays under the hood
+	// Here an fixed size array is made first and then a slice is created for that array
 	//mostly used instead of arrays
 	var scores = []int{100, 50, 60}
 	scores[2] = 99
