@@ -8,4 +8,9 @@ use (
 	./05arr
 	./06stdlib
 	./07sqrt
+	./08control
+	./09moreTypes
+	./10meth
+	./11generic
+	./12goroutine
 )
